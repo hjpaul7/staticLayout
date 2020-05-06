@@ -1,0 +1,205 @@
+body {
+  background-color: #efefef;
+  font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+  font-size: 14px;
+  color: white;
+  font-weight: bold;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  margin: 0px;
+}
+
+.navbar {
+  overflow: hidden; /* hides overflow */
+  background-color: #2d2d2d;
+  height: 60px;
+  width: 100%;
+  margin-top: 0px;
+  position: fixed;
+  z-index: 2;
+  top: 0px;
+}
+
+.navbar img {
+  float: left;
+  height: 65px;
+}
+
+.navbar a {
+  float: left; /* makes sure links stay side by side */
+  display: block; /* changes the display to block, for responsive reasons */
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none; /* removes link underline */
+}
+
+.navbar a.schedule {
+  float: right; /* makes sure links stay side by side */
+  display: block; /* changes the display to block, for responsive reasons */
+  background-color: #348db9;
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none; /* removes link underline */
+}
+
+.navbar a.applynow {
+  float: right; /* makes sure links stay side by side */
+  display: block; /* changes the display to block, for responsive reasons */
+  background-color: #e33e42;
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none; /* removes link underline */
+  margin-left: 10px;
+}
+
+.navbar a.schedule:hover {
+  float: right; /* makes sure links stay side by side */
+  display: block; /* changes the display to block, for responsive reasons */
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none; /* removes link underline */
+  background-color: #157fb3;
+}
+
+.navbar a.applynow:hover {
+  float: right; /* makes sure links stay side by side */
+  display: block; /* changes the display to block, for responsive reasons */
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none; /* removes link underline */
+  margin-left: 10px;
+  background-color: #ba272b;
+}
+
+.navbar a:hover {
+  background-color: #202020;
+  color: white;
+}
+
+.center {
+  display: flex;
+  flex-wrap: wrap;
+  z-index: 1;
+  position: absolute;
+  margin-top: 10%;
+}
+
+.center_top {
+  background-color: black;
+  margin-top: 10%;
+  margin-left: 20%;
+  padding: 0px 20px 0px 20px;
+  opacity: 0.7;
+  text-align: center;
+  font-size: 3.5rem;
+}
+
+.center_bottom {
+  background-color: #e33e42;
+  margin-left: 20%;
+  margin-top: 10px;
+  padding: 0px 10px 0px 10px;
+  opacity: 0.9;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.center_bottom a {
+  text-decoration: none;
+  color: white;
+}
+
+.info {
+  font-family: "Overpass", "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  color: #348db9;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.25rem;
+  margin-bottom: 0px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+.row {
+  margin: 0 -5px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: stretch;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  background-color: #f1f1f1;
+  flex-flow: column wrap;
+  justify-content: space-between;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 15px;
+  color: white;
+  background-color: #e33e42;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+p {
+  padding-top: 10px;
+}
+
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  padding-top: 10px;
+  color: black;
+}
+
+p {
+  color: #83858d;
+  font-size: 20px;
+  font-family: "Overpass", "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
+
+.card:hover {
+  background-color: lightgrey;
+  opacity: 0.6;
+}
