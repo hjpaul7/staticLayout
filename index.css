@@ -181,6 +181,11 @@ body {
   font-size: 18px;
 }
 
+.button {
+  color: white;
+  text-decoration: none;
+}
+
 .button a {
   color: white;
   text-decoration: none;
